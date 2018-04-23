@@ -21,6 +21,7 @@ helloworld_1.0-1.deb: deb_testing control.conf
 
 clean:
 	rm -rf helloworld_1.0-1
+	rm -f helloworld_1.0-1.deb
 	go clean
 
 test-install: helloworld_1.0-1.deb
